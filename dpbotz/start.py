@@ -26,7 +26,7 @@ async def approve(bot, m : Message):
         await bot.approve_chat_join_request(op.id, kk.id)
         await bot.send_message(m.from_user.t, "**𝖧𝖾𝗅𝗅𝗈 {} 👻\nWelcome To {} 𝖸𝗈𝗎𝗋 𝖱𝖾𝗊𝗎𝖾𝗌𝗍 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖠𝗉𝗉𝗋𝗈𝗏𝖾𝖽.\n\nSend /start to know more**".format(m.from_user.mention, m.chat.title))
         reply_markup=InlineKeyboardMarkup([[
-        InlineKeyboardButton("💥 NEW MOVIES 💥", url=f"https://t.me/+sT56Fh1VXZ81ZWRl")
+        InlineKeyboardButton("💥 NEW MOVIES 💥", url=f"")
         ]])
                 
         await add_user(m.from_user.id)
