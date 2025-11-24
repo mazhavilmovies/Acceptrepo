@@ -6,8 +6,8 @@ class Config:
     API_ID = int(getenv("API_ID", "21419016"))
     API_HASH = getenv("API_HASH", "79198e1eb4cfd0f771a89d83b9144e7e")
     BOT_TOKEN = getenv("BOT_TOKEN", "8195734162:AAEDqrvuIgVqnPqEJ4yiDcwtMUW9K8lM3mQ")
-    UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "https://t.me/Mazhavil_MoviesTG")
-    UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-1002607101091"))
+    UPDATE_CHANNEL = getenv("UPDATE_CHANNEL", "https://t.me/+O7J_SlGPgp1iYmE1")
+    UPDATECHANNEL_ID = int(getenv("UPDATECHANNEL_ID", "-1002674451609"))
     ADMIN = list(map(int, getenv("ADMIN", "1933114137").split()))
     MONGO_URI = getenv("MONGO_URI", "mongodb+srv://combtmpxrcws_db_user:aSyDkcTBD6pNF6fT@cluster0.4kosmi0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
     LOG_CHANNEL = -1003259271720
