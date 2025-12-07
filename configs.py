@@ -17,10 +17,10 @@ class Config:
     BOT_UPTIME  = time.time()
     PORT = os.environ.get("PORT", "8080")
     
-    DP_PIC = os.environ.get("DP_PIC", "https://envs.sh/_qj.mp4")
+    DP_PIC = os.environ.get("DP_PIC", "https://graph.org/file/1883413dc986c424ce328-384c0028ad3922244d.jpg")
     BOT_USERNAME = os.environ.get("BOT_USERNAME","Mazhavil_approver_bot")
  # Subsprice Gif & Auto Request Accept
-    SURPRICE = os.environ.get("SURPRICE", "https://envs.sh/_qj.mp4").split()
+    SURPRICE = os.environ.get("SURPRICE", "https://graph.org/file/1883413dc986c424ce328-384c0028ad3922244d.jpg").split()
 
     LOGO = """🇩 🇵_🇧 🇴 🇹 🇿"""
 
